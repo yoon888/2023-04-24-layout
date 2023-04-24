@@ -1,0 +1,45 @@
+.header {
+    background-color: #E8E8E8;
+}
+
+.header .logo{
+    height: 100px;
+    background-color: #c9c9c9;
+    text-align: center;
+    line-height: 100px;
+}
+
+.header .gnb{}
+
+.header .gnb .inner{
+    height: 80px;
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+    background-color: #D9D9D9;
+}
+
+.contents{
+    height: 544px;
+    width: 1040px;
+    background-color: #F0F0F0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #c9c9c9;
+}
+
+.footer .inner{
+    width: 1040px;
+    height: 300px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
