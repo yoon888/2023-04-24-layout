@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #222;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.menu li a {
+    background-color: #ddd;
+    display: block;
+    padding: 6px 10px;
+}
