@@ -1,0 +1,31 @@
+.header{
+    background-color: #222;
+    color: #fff;
+    /* display: flex; */
+}
+
+.header .inner{
+    width: 1040px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header .inner .ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header .inner .button{
+    width: 70px;
+    height: 30px;
+    background-color: #B28C68;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #B28C68;
+    font-size: 11px;
+}
